@@ -4,11 +4,36 @@
     <script src="//cdn.jsdelivr.net/markdown-it/4.2.2/markdown-it.min.js"></script>
   </head>
   <body>
-    Hello World
+
+<div id="mdcontent">
+I'm maintaining two main projects:
+
+# Mesamatrix
+
+Mesamatrix is a web site that tracks the commits of the open-source [mesa](http://mesa3d.org/) drivers. It parses the
+[features.txt](https://cgit.freedesktop.org/mesa/mesa/tree/docs/features.txt) file for each commits and track, in time,
+when a feature appeared and for which driver.
+
+URL: [https://github.com/MightyCreak/mesamatrix](https://github.com/MightyCreak/mesamatrix)
+
+# Diffuse
+
+Diffuse is a GUI application that allows to compare text files. It is written in Python and is a fork of the original
+application [here](http://diffuse.sourceforge.net/).
+
+My first work has been to modernize the source code and convert it from Python 2 to 3, and from GTK 2 to 3.
+
+URL: [https://github.com/MightyCreak/diffuse](https://github.com/MightyCreak/diffuse)
+</div>
+
 <script>
-var md = window.markdownit();
-var result = md.render('# markdown-it rulezz!');
-document.write(result);
+var mdtag = document.getElementById("mdcontent");
+if (mdtag)
+{
+    var md = window.markdownit();
+    mdtag.innerHTML = md.render(mdtag.innerHTML);
+}
 </script>
+
   </body>
 </html>
