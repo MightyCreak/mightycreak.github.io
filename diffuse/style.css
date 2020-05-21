@@ -44,7 +44,7 @@ a:hover {
   font: 1.8em serif;
   margin-left: 40px;
 }
-#topnav, #footer {
+#topnav, footer {
   color: #fff;
   margin: 5px;
   padding: 5px;
@@ -60,11 +60,11 @@ a:hover {
   margin-right: 6px;
   margin-left: 6px;
 }
-#topnav a, #footer a {
+#topnav a, footer a {
   color: #f93;
   text-decoration: none;
 }
-#topnav a:hover, #footer a:hover {
+#topnav a:hover, footer a:hover {
   text-decoration: underline;
 }
 #main h2 {
@@ -84,7 +84,7 @@ a:hover {
   float: right;
   margin: 10px;
 }
-#footer {
+footer {
   font-size: 0.8em;
 }
 
