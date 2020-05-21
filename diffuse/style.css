@@ -5,7 +5,7 @@ html{line-height:1.15;-webkit-text-size-adjust:100%}body{margin:0}main{display:b
 html{box-sizing:border-box}*,*:after,*:before{box-sizing:inherit}
 
 body {
-  font: 12px verdana;
+  font-family: sans-serif;
   background: #f7f7f7;
 }
 p, pre, dl {
@@ -28,7 +28,6 @@ a:hover {
   background: #fff;
 }
 #header {
-  height: 100px;
   margin: 5px;
   border-top: 3px solid #333;
 }
@@ -36,14 +35,13 @@ a:hover {
   margin: 0;
   padding: 0;
   color: #f92;
-  font: 30px Georgia, serif;
+  font: 3em serif;
   margin-top: 20px;
   margin-left: 40px;
 }
 #header h2 {
-  margin: 0;
-  padding: 0;
-  font: 14px Georgia, serif;
+  margin-top: 0;
+  font: 1.8em serif;
   margin-left: 40px;
 }
 #topnav, #footer {
@@ -73,7 +71,7 @@ a:hover {
   color: #730;
   margin: 20px 0 6px;
   padding-bottom: 10px;
-  font: 17px Georgia, serif;
+  font-family: serif;
   border-bottom: 1px solid #e2dfdb;
 }
 #left {
@@ -87,7 +85,7 @@ a:hover {
   margin: 10px;
 }
 #footer {
-  font-size: 11px;
+  font-size: 0.8em;
 }
 
 .download, .download:hover {
