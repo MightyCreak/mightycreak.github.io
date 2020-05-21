@@ -39,12 +39,13 @@ a:hover {
   margin: 0 40px;
   padding: 0;
   color: #f92;
-  font: 3em serif;
+  font: 3.2em serif;
+  font-weight: bold;
 }
 #header h2 {
   margin: 0 40px;
   padding: 0;
-  font: 1.8em serif;
+  font: 1.5em serif;
 }
 #main h2 {
   color: #730;
