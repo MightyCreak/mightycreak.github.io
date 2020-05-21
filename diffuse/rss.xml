@@ -4,7 +4,7 @@
       <title>Diffuse</title>
       <atom:link href="http://diffuse.sourceforge.net/rss.xml" rel="self" type="application/rss+xml" />
       <link>http://diffuse.sourceforge.net/</link>
-      <description>graphical tool for merging and comparing text files</description>
+      <description>Graphical tool for merging and comparing text files</description>
       <language>en-GB</language>
       <image>
         <url>http://diffuse.sourceforge.net/favicon.ico</url>
