@@ -1,0 +1,108 @@
+body {
+  font : 12px verdana;
+  background : #f7f7f7;
+  margin : 0;
+}
+p, pre, dl {
+  padding : 0;
+  margin : 0 10px 8px 10px;
+}
+a {
+  color : #d70;
+}
+a:hover {
+  color : #666;
+}
+
+#page {
+  width : 760px;
+  margin : auto;
+  text-align : left;
+  border : 1px solid #333;
+  color : #333;
+  background : #fff;
+}
+#header {
+  height : 100px;
+  margin : 5px;
+  border-top : 3px solid #333;
+}
+#header h1 {
+  margin : 0;
+  padding : 0;
+  color : #f92;
+  font : 30px Georgia, serif;
+  margin-top : 20px;
+  margin-left : 40px;
+}
+#header h2 {
+  margin : 0;
+  padding : 0;
+  font : 14px Georgia, serif;
+  margin-left : 40px;
+}
+#topnav, #footer {
+  color : #fff;
+  margin : 5px;
+  padding : 5px;
+  background : #333;
+}
+#topnav ul {
+  list-style-type : none;
+  margin : 0;
+  padding : 0;
+}
+#topnav ul li {
+  display : inline;
+  margin-right : 6px;
+  margin-left : 6px;
+}
+#topnav a, #footer a {
+  color : #f93;
+  text-decoration : none;
+}
+#topnav a:hover, #footer a:hover {
+  text-decoration : underline;
+}
+#main h2 {
+  color : #730;
+  margin : 20px 0 6px;
+  padding-bottom : 10px;
+  font : 17px Georgia, serif;
+  border-bottom : 1px solid #e2dfdb;
+}
+#left {
+  width : 22%;
+  float : left;
+  margin : 10px;
+}
+#body {
+  width : 71%;
+  float : right;
+  margin : 10px;
+}
+#footer {
+  font-size : 11px;
+}
+
+.download, .download:hover {
+  background-image : url("download_button.png");
+  background-repeat : no-repeat;
+  cursor : pointer;
+  width : 223px;
+  height : 79px;
+}
+.download:hover {
+  background-image : url("download_button_hover.png");
+}
+.dlpage table {
+  padding: 2px;
+  margin-bottom: 10px;
+}
+.dlpage td {
+  border:1px solid #ccc;
+  height: 42px;
+}
+.oslogo{
+  vertical-align: top;
+}

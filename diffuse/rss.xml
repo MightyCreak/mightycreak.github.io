@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+      <title>Diffuse</title>
+      <atom:link href="http://diffuse.sourceforge.net/rss.xml" rel="self" type="application/rss+xml" />
+      <link>http://diffuse.sourceforge.net/</link>
+      <description>graphical tool for merging and comparing text files</description>
+      <language>en-GB</language>
+      <image>
+        <url>http://diffuse.sourceforge.net/favicon.ico</url>
+        <title>Diffuse</title>
+        <link>http://diffuse.sourceforge.net/</link>
+        <width>16</width>
+        <height>16</height>
+      </image>
+      <copyright>GNU-Free Documentation License 2.0</copyright>
+      <managingEditor>derrick_moser@yahoo.com (Derrick Moser)</managingEditor>
+      <pubDate>Wed, 21 Apr 2010 15:27:35 +0200</pubDate>
+      <item>
+        <title>0.4.3</title>
+        <link>http://diffuse.sourceforge.net/releasehistory.html</link>
+        <description><![CDATA[
+        <p>Released 2010-04-15</p>
+        <ul>
+        <li>fixed a bug that prevented the "-m" option from opening a 3-way merge for Subversion and Bazaar conflicts</li>
+        </ul>
+        ]]></description>
+        <pubDate>Wed, 21 Apr 2010 15:27:35 +0200</pubDate>
+        <guid isPermaLink="true">http://diffuse.sourceforge.net/download.html</guid>
+      </item>
+      <item>
+        <title>0.4.4</title>
+        <link>http://diffuse.sourceforge.net/releasehistory.html</link>
+        <description><![CDATA[
+        <p>Released 2010-10-21</p>
+        <ul>
+        <li>Git support now recognises conflicts when re-applying the stash</li>
+        <li>double clicking on text can now select full words with non-English characters</li>
+        <li>search dialog is now automatically populated with the currently selected text</li>
+        <li>fixed a bug that prevented opening files with non-ASCII characters in their path</li>
+        <li>added Oleg Pakhtusov's Russian translation</li>
+        <li>added Kang Bundo's Korean translation</li>
+        <li>pane headers tooltips</li>
+        <li>Shift-ScrollWheel can now be used to scroll horizontally</li>
+        </ul>
+        ]]></description>
+        <pubDate>Thu, 21 Oct 2010 22:12:16 +0200</pubDate>
+        <guid isPermaLink="true">http://diffuse.sourceforge.net/download.html</guid>
+      </item>
+      <item>
+        <title>0.4.5</title>
+        <link>http://diffuse.sourceforge.net/releasehistory.html</link>
+        <description><![CDATA[
+        <p>Released 2011-07-13</p>
+        <ul>
+        <li>fixed a bug in CVS and Subversion support that prevented Diffuse from displaying some removed files</li>
+        <li>added syntax highlighting for JSON files</li>
+        <li>added menu items and keyboard shortcuts for "First Tab" and "Last Tab"</li>
+        <li>added "--line" command line option</li>
+        <li>fixed a bug that caused deleted files to be ignored when using the '-m' option</li>
+        <li>fixed a bug that incorrectly encoded pasted text if utf_8 was not specified in the Region Settings preferences</li>
+        <li>state information is now stored in ~/.local/share/diffuse</li>
+        <li>Diffuse now uses a patience diff-based algorithm to align lines</li>
+        <li>added command line option to specify a label to display instead of the file name</li>
+        <li>added preference to display the right margin</li>
+        <li>added Cristian Marchi's Italian translation</li>
+        <li>fixed a bug that could cause "Save As..." to fail with some user specified encodings</li>
+        </ul>
+        ]]></description>
+        <pubDate>Thu, 14 Jul 2011 17:57:55 +0200</pubDate>
+        <guid isPermaLink="true">http://diffuse.sourceforge.net/download.html</guid>
+      </item>
+      <item>
+        <title>0.4.6</title>
+        <link>http://diffuse.sourceforge.net/releasehistory.html</link>
+        <description><![CDATA[
+        <p>Released 2011-11-02</p>
+        <ul>
+        <li>added support for Subversion 1.7</li>
+        <li>added "Open Commit..." menu item</li>
+        <li>"-c" option now works for all supported version control systems</li>
+        <li>fixed a bug that caused the wrong revision to be shown when working on a branch in Mercurial</li>
+        <li>Git support distinguishes between staged and unstaged files</li>
+        <li>added syntax highlighting for R files</li>
+        </ul>
+        ]]></description>
+        <pubDate>Wed 02 Nov 2011 05:22:47 PM CET</pubDate>
+        <guid isPermaLink="true">http://diffuse.sourceforge.net/download.html</guid>
+      </item>
+</channel>
+</rss>

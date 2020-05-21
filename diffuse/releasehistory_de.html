@@ -1,0 +1,241 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="de">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Diffuse</title>
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="shortcut icon" href="favicon.ico"/>
+    <link rel="alternate" type="application/rss+xml" title="News" href="rss.xml" />
+  </head>
+  <body>
+    <div id="page">
+      <div id="header">
+        <h1>Diffuse</h1>
+        <h2>graphisches Werkzeug zum Zusammenführen und Vergleichen von Textdateien</h2>
+      </div>
+      <div id="topnav">
+        <div style="float:right"><ul><li><a href="index_de.html">[de]</a></li><li><a href="index.html">[en]</a></li></ul></div>
+        <ul><li><a href="index_de.html">Home</a></li><li><a href="about_de.html">&Uuml;ber</a></li><li><a href="download_de.html">Download</a></li><li><a href="screenshots_de.html">Screenshots</a></li><li><a href="manual_de.html">Dokumentation (en)</a></li></ul>
+      </div>
+      <div id="main">
+        <div id="left">
+          <h2>Navigation</h2>
+          <div id="nav"><ul><li><a href="index_de.html">Home</a></li><li><a href="about_de.html">&Uuml;ber</a></li><li><a href="download_de.html">Download</a></li><li><a href="screenshots_de.html">Screenshots</a></li><li><a href="manual_de.html">Dokumentation (en)</a></li><li><a href="licence_de.html">Lizenz</a></li><li><a href="development_de.html">Entwicklung</a></li><li><a href="roadmap_de.html">Roadmap</a></li><li><a href="releasehistory_de.html">&Auml;nderungen</a></li></ul></div>
+        </div>
+        <div id="body"><h2>&Auml;nderungen</h2>
+<h3>0.4.6</h3>
+<p>Ver&ouml;ffentlicht am 2011-11-02</p>
+<ul>
+<li>Unterstützung für Subversion 1.7</li>
+<li>"Revisionen öffnen..." Menüpunkt hinzugefügt</li>
+<li>"-c" Option funktioniert  nun mit allen unterstützten Versionskontrollsystemen</li>
+<li>Bug behoben, der das Anzeigen der falschen Revision verursachte beim Arbeiten mit Mercurial</li>
+<li>Git Unterstützung unterscheidet zwischen staged und unstaged Dateien</li>
+<li>Syntaxhervorhebung für R Dateien</li>
+</ul>
+<h3>0.4.5</h3>
+<p>Ver&ouml;ffentlicht am 2011-07-13</p>
+<ul>
+<li>Bug in der CVS und Subversion Unterstützung behoben, der verhindert hat, dass Diffuse einige entfernte Dateien anzeigt</li>
+<li>Syntax Hervorhebung für JSON Dateien hinzugefügt</li>
+<li>Menüpunkte und Tastaturkürzel für "Erster Reiter" und "Letzter Reiter" hinzugefügt</li>
+<li>"--line" Kommandozeilenoption hinzugefügt</li>
+<li>Bug behoben, der dazu geführt hat, dass gelöscht Dateien bei Nutzung der "-m" Option ignoriert wurden</li>
+<li>Bug behoben, der fälschlicherweise eingefügten Text kodiert hat, wenn utf_8 nicht in den Lokalisierungseinstellungen angegeben war</li>
+<li>Benutzereinstellungen werden jetzt in ~/.local/share/diffuse gespeichter</li>
+<li>Diffuse verwendet jetzt einen patience diff basierten Algorithmus um die Zeilen auszurichten</li>
+<li>Kommandozeilenoption zum Anzeigen einer Bezeichnung statt des Dateinamens hinzugefügt</li>
+<li>Einstellung hinzugefügt um den rechten Rand anzuzeigen</li>
+<li>Cristian Marchi's italienische Übersetzung hinzugefügt</li>
+<li>Bug behoben, der dazu geführt hat, dass der "Speichern unter..." Dialog bei benutzerdefinierten Kodierungen abstürzt</li>
+</ul>
+<h3>0.4.4</h3>
+<p>Ver&ouml;ffentlicht am 2010-10-21</p>
+<ul>
+<li>Git-Unterstützung erkennt nun Konflikte beim erneuten anwenden des Stash</li>
+<li>Doppelklicken auf den Text kann nun ganze Wörter mit nicht-englischen Zeichen erfassen</li>
+<li>Im Suchen-Dialog wird nun automatisch der gerade ausgewählte Text eingefügt</li>
+<li>Fehler behoben, der das Öffnen von Dateien mit nicht-ASCII Zeichen im Pfad verhindert hat.</li>
+<li>Oleg Pakhtusov's russische Übersetzung hinzugefügt</li>
+<li>Kang Bundo's koreanische Übersetzung hinzugefügt</li>
+<li>Fenster Kopfzeilen Tooltips</li>
+<li>Shift+Mausrad kann jetzt verwendet werden um horizontal zu scrollen</li>
+</ul>
+<h3>0.4.3</h3>
+<p>Ver&ouml;ffentlicht am 2010-04-15</p>
+<ul>
+<li>Bug behoben, der die "-m" Option zum &ouml;ffnen von 3-Wege-Mischen von Subversion und Bazaar Konflikten verhindert hat</li>
+</ul>
+<h3>0.4.2</h3>
+<p>Ver&ouml;ffentlicht am 2010-04-13</p>
+<ul>
+<li>&Uuml;nterst&uuml;tzung zur Abl&ouml;sung von Git Repositorien</li>
+<li>Verbesserte Entfernung von unn&ouml;tigen Leerzeilen</li>
+<li>&Uuml;nterst&uuml;tzung f&uuml;r horizontales Scrollen</li>
+<li>Umbenennung einiger Funktionen in benutzerfreundlichere Namen</li>
+<li>RCS Unterst&uuml;tzung</li>
+<li>Henri Menkes Spanische &Uuml;bersetzung hinzugef&uuml;gt (alpha)</li>
+<li>"#!" Interpreter Zeilen werden nun verwendet um die richtige Syntaxhervorhebung zu w&auml;hlen</li>
+<li>Syntaxhervorhebung wird nun von Auswahlmenupunkten angezeigt</li>
+</ul>
+<h3>0.4.1</h3>
+<p>Ver&ouml;ffentlicht am 2009-10-12</p>
+<ul>
+<li>Japanische &Uuml;bersetzung hinzugef&uuml;gt</li>
+<li>Liu Haos &Uuml;bersetzung f&uuml;r vereinfachtes Chinesisch hinzugef&uuml;gt</li>
+<li>'Alle &Auml;nderungen verwerfen' Men&uuml;punkt hinzugef&uuml;gt</li>
+<li>Pers&ouml;nliche Konfigurationsdateien werden nun in ~/.config/diffuse/ gespeichert (Die README Datei beschreibt, wie man alte Einstellungen migriert)</li>
+<li>Lokalisierte Dokumentation wird nun unter Windows unterst&uuml;tzt</li>
+<li>Neue Kommandozeilenoption zum &ouml;ffnen von leeren Vergleichsansichten</li>
+<li>Neue Einstellung zum einschalten/ausschalten der Zeilennummern</li>
+<li>Diffuse beendet nun, wenn keine Ansichten mit der -m Option erstellt wurden</li>
+<li>MMB auf einem Notizblockreiter schlie&szlig;t nun den Reiter</li>
+<li>RMB auf einem Notizblockreiter erstellt ein Popupmen&uuml; um die aktuelle Seite zu setzen</li>
+<li>"Reiter schlie&szlig;en r&uuml;ckg&auml;ngig" Men&uuml;punkt hinzugef&uuml;gt</li>
+<li>"Schlie&szlig;en des letzten Tabs beendet Diffuse" Einstellung durch "Warnen, wenn schlie&szlig;en des Tabs Diffuse beendet" Einstellung ersetzt</li>
+<li>Neue Men&uuml;punkte und Buttons um Zeilen zwischen den Ausschnitten zu kopieren hinzugef&uuml;gt</li>
+<li>Standard-Hotkeys zum mischen ge&auml;ndert um die Richtung der "Bewegung" wiederzugeben</li>
+</ul>
+<ul>
+</ul>
+<h3>0.4.0</h3>
+<p>Ver&ouml;ffentlicht am 2009-08-17</p>
+<ul>
+<li>Formatmen&uuml; hinzugef&uuml;gt mit neuen Punkten zum &Auml;ndern von Gro&szlig;- und Kleinschreibung, Sortierung, und ver&auml;ndern von Leerzeichen</li>
+<li>'Zeichen am Zeilenende verstecken' Einstellung durch 'Leerzeichen anzeigen' ersetzt</li>
+<li>Fehler werden nun in einem Dialog ausgegeben anstatt auf stderr</li>
+<li>Optimierte redraws, wenn sich nur die Cursor Position ver&auml;ndert hat</li>
+<li>Eingabemethoden, die pre-editing benutzen k&ouml;nnen nun beim Editieren von Text verwendet werden</li>
+<li>Tote Tasten k&ouml;nnen nun benutzt werden beim Editieren von Text</li>
+<li>Aktualisierte Monotone Unterst&uuml;tzung um 'mtn automate inventory' benutzen zu k&ouml;nnen</li>
+<li>Git Unterst&uuml;tzung verarbeitet nun Dateien die als 'unmerged' markiert sind</li>
+<li>grazile Handhabung von nicht-null exit codes von 'git status'</li>
+<li>Sektion Versions Kontrolle zur Dokumentation hinzugef&uuml;gt</li>
+</ul>
+<h3>0.3.4</h3>
+<p>Ver&ouml;ffentlicht am 2009-07-03</p>
+<ul>
+<li>Syntax Hervorhebung f&uuml;r .plist, GLSL, SConscript, und SConstruct Dateien</li>
+<li>Statusleiste erkl&auml;rt nun die Navigation zwischen den verschiedenen Modi</li>
+<li>Felder zum Anzeigen von Syntax Hervorhebungsregeln, Kodierung und Format hinzugef&uuml;gt</li>
+<li>Subversion 1.6 Unterst&uuml;tzung</li>
+<li>Deutsche &Uuml;bersetzung von Henri Menke hinzugef&uuml;gt</li>
+<li>'--examplesdir=' und '--mandir=' Optionen zu install.py hinzugef&uuml;gt</li>
+<li>Die '--python-interpreter=' Installationsoption in '--pythonbin=' umbenannt</li>
+<li>Kleinere Fehlerkorrekturen</li>
+</ul>
+<h3>0.3.3</h3>
+<p>Ver&ouml;ffentlicht am 2009-04-13</p>
+<ul>
+<li>Fehler korregiert der die R&uuml;cktaste in der ersten Zeile mit dem Cursor handhabt</li>
+</ul>
+<h3>0.3.2</h3>
+<p>Ver&ouml;ffentlicht am 2009-04-13</p>
+<ul>
+<li>POSIX Installationspaket mit '--destdir=' und '--files-only' Optionen f&uuml;r Paketbetreuer</li>
+<li>vi-&auml;hnliche Tastenkombinationen f&uuml;r Zeilen-Modus</li>
+<li>'-m' Option um bearbeitete Dateien in getrennten Reitern zu &ouml;ffnen</li>
+<li>'Mischen von links, dann von rechts' und 'Mischen von rechts, dann von links' Men&uuml;punkte</li>
+<li>drag-n-drop Unterst&uuml;tzung</li>
+<li>Einstellungen f&uuml;r Verhalten der Reiter</li>
+<li>Dateien in Bearbeitung nun mit '*' gekennzeichnet</li>
+<li>Automatischer Einzug</li>
+<li>'Datei in neuem Reiter &ouml;ffnen...' und 'Bearbeitete Dateien &ouml;ffnen...' Men&uuml;punkte</li>
+<li>'Alle speichern' Men&uuml;punkt</li>
+<li>mac Zeilenenden Unterst&uuml;tzung</li>
+<li>Neues Verhalten der Zeilenendenanzeige</li>
+<li>Verbesserte Organisation der Men&uuml;punkte</li>
+<li>Die Button-Leiste f&auml;ngt nicht mehr den Tastatur-Fokus</li>
+<li>Abh&auml;ngigkeit auf das urllib Modul entfernt</li>
+<li>Fehler werden nun &uuml;ber die stderr gemeldet</li>
+<li>TODO Liste entfernt</li>
+<li>Kleinere Fehlerkorrekturen</li>
+</ul>
+<h3>0.3.1</h3>
+<p>Ver&ouml;ffentlicht am 2009-03-05</p>
+<ul>
+<li>Einen Fehler im 'Suchen...' Dialog behoben</li>
+</ul>
+<h3>0.3.0</h3>
+<p>Ver&ouml;ffentlicht am 2009-03-03</p>
+<p>Die Regeln f&uuml;r das Parsen von Dateien in ~/.diffuse hat sich in der 0.3.0 Ver&ouml;ffentlichung ge&auml;ndert.  Nicht-schwerwiegende Fehler k&ouml;nnen gemeldet werden beim Parsen alter Dateien. Diese Fehler k&ouml;nnen behoben werden durch das Entfernen fehlerhaften Zeilen (oder der ganzen Datei) aus ~/.diffuse/diffuserc. Fehler in ~/.diffuse/config werden automatisch behoben, wenn Diffuse beendet wird.</p>
+<ul>
+<li>Neues Windows Installationsprogramm</li>
+<li>Benachrichtigung beim Fokussieren wenn sich Dateien auf Festplatte &auml;ndern</li>
+<li>Men&uuml;punkte zum Einstellen der Markierung</li>
+<li>Syntax Hervorhebung f&uuml;r Objective-C++</li>
+<li>'-c' Option funktioniert nun mit CVS Revisions Nummern</li>
+<li>Fenstertitel beschreibt nun den aktuellen Reiter</li>
+<li>Suchen-Einstellungen bleiben nun &uuml;ber mehrere Sitzungen bestehen</li>
+<li>Kleinere Fehlerkorrekturen</li>
+</ul>
+<h3>0.2.15</h3>
+<p>Ver&ouml;ffentlicht am 2008-12-03</p>
+<ul>
+<li>Sanfter Bildlauf</li>
+<li>Ansichten und Reiter k&ouml;nnen nun von Hand reorganisiert werden</li>
+<li>Einstellungen f&uuml;r Tabulator Verhalten</li>
+<li>'Gehe zu Zeile' Men&uuml;punkt</li>
+<li>'-c' Option zum Anzeigen der &Auml;nderungen einer unvollst&auml;ndigen Revision</li>
+<li>Pos 1/Ende Tasten k&ouml;nnen nun im Zeilenmodus benutzt werden</li>
+<li>Best&auml;tigung angefordert bevor ge&auml;nderte Dateien &uuml;bergangen werden</li>
+<li>Position des Fensters wird nun gespeichert</li>
+<li>Syntax-Dateien f&uuml;r mehr Dateitypen</li>
+<li>Einlesen von /etc/diffuserc nun optional wenn eine eigene Konfigurationsdatei verwendet wird</li>
+<li>Kleinere Fehlerkorrekturen</li>
+</ul>
+<h3>0.2.14</h3>
+<p>Ver&ouml;ffentlicht am 2008-10-20</p>
+<ul>
+<li>Microsoft Windows Portierung</li>
+<li>svk Unterst&uuml;tzung</li>
+<li>Syntax-Dateien f&uuml;r mehr Dateitypen</li>
+<li>DOS / Unix Zeilenenden werden nun bei Editieroperationen ber&uuml;cksichtigt</li>
+<li>Verbesserte Unterschiedsanzeige</li>
+<li>Stabilerer Start des Hilfe-Browsers</li>
+<li>man page</li>
+<li>Kommandozeilen-Anzeige-Optionen</li>
+<li>Einige Dinge in den Einstellungsdialog verschoben</li>
+<li>Datei Revisionen k&ouml;nnen nun &uuml;ber den Datei &ouml;ffnen Dialog bestimmt werden</li>
+<li>Kleinere Fehlerkorrekturen</li>
+</ul>
+<h3>0.2.13</h3>
+<p>Ver&ouml;ffentlicht am 2008-05-16</p>
+<ul>
+<li>bazaar, darcs, und monotone Unterst&uuml;tzung</li>
+<li>Konfigurierbare Tastenkombinationen</li>
+<li>Bestehend bleibende Einstellungen</li>
+<li>Optimierungen</li>
+<li>Kleinere Fehlerkorrekturen</li>
+</ul>
+<h3>0.2.12</h3>
+<p>Ver&ouml;ffentlicht am 2008-05-06</p>
+<ul>
+<li>Alternative Codecs zum Lesen und Schreiben von Dateien</li>
+<li>Mehr Suchoptionen</li>
+<li>Editor unterst&uuml;tzt grundlegende Auswahl</li>
+<li>Kleinere Fehlerkorrekturen</li>
+</ul>
+<h3>0.2.11</h3>
+<p>Ver&ouml;ffentlicht am 2008-04-27</p>
+<ul>
+<li>Neu geschrieben in Python</li>
+<li>Syntax Hervorhebung</li>
+<li>Suchen und Ersetzen</li>
+<li>Anpassbar durch Konfigurationsdateien</li>
+<li>In Reiter gegliederte Ansicht</li>
+</ul>
+<h3>0.1.14</h3>
+<p>Ver&ouml;ffentlicht am 2006-01-28</p>
+<ul>
+<li>Erste allgemeine Ver&ouml;ffentlichung</li>
+</ul></div>
+      </div>
+      <div style="clear:both;"></div>
+      <div id="footer">
+        <div style="float:right">Hosting by <a href="http://sourceforge.net/">SourceForge.net</a></div>
+        Copyright &copy; 2006-2013 Derrick Moser, Henri Menke
+      </div>
+    </div>
+  </body>
+</html>
