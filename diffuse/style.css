@@ -88,16 +88,34 @@ footer {
   font-size: 0.8em;
 }
 
-.download, .download:hover {
-  background-image: url("images/download_button.png");
-  background-repeat: no-repeat;
+.download {
+  margin: 0 0 1em 0;
+  padding: 0.5em 1em;
+  border: 1px solid #8dad28;
+  border-radius: 0.5em;
+  background-image: linear-gradient(to bottom, #cee07a, #adcd3c);
   cursor: pointer;
-  width: 223px;
-  height: 79px;
+  display: flex;
 }
 .download:hover {
-  background-image: url("images/download_button_hover.png");
+  background-image: linear-gradient(to bottom, #d7eb79, #b2d634);
 }
+.download > img {
+  margin: 10px;
+  align-self: center;
+}
+.download > p {
+  margin: 10px;
+  text-align: left;
+  font-size: 0.8em;
+}
+.download-link {
+  display: inline-block;
+  margin-bottom: 0.3em;
+  font-size: 1.3em;
+  color: #d70;
+}
+
 .dlpage table {
   padding: 2px;
   margin-bottom: 10px;
