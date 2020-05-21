@@ -86,14 +86,14 @@ a:hover {
 }
 
 .download, .download:hover {
-  background-image : url("download_button.png");
+  background-image : url("images/download_button.png");
   background-repeat : no-repeat;
   cursor : pointer;
   width : 223px;
   height : 79px;
 }
 .download:hover {
-  background-image : url("download_button_hover.png");
+  background-image : url("images/download_button_hover.png");
 }
 .dlpage table {
   padding: 2px;
