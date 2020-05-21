@@ -21,7 +21,7 @@ a:hover {
 }
 
 #page {
-  width: 760px;
+  max-width: 900px;
   margin: auto;
   text-align: left;
   border: 1px solid #333;
@@ -53,6 +53,15 @@ a:hover {
   padding-bottom: 10px;
   font-family: serif;
   border-bottom: 1px solid #e2dfdb;
+}
+#main .disclaimer {
+  padding: 10px;
+  border: 1px solid #77f;
+  background-color: #ddf;
+  font-style: italic;
+}
+#main .disclaimer p {
+  margin-left: 0;
 }
 #left {
   width: 22%;
