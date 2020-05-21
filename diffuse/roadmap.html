@@ -21,46 +21,50 @@
         <div id="body"><h2>Where We Are Going</h2>
 <p>We want to make Diffuse the best tool for open source developers to resolve merge conflicts and review changes to their code. We are currently focusing on merging and comparing text files. Below are the items we want to accomplish on our way to a "version 1.0.0" release. This roadmap is a work in progress and will evolve as the project moves forward.</p>
 <h2>Goals For 0.5</h2>
+<ul>
+  <li>Migrate from Python 2 to Python 3</li>
+</ul>
+<h2>Goals For 0.6</h2>
 <p>We are partitioning Diffuse's code base into three main sections, each with a well defined public API and simple dependency graph. The contents of these sections will basically be:</p>
 <p><strong>Core data manipulation classes:</strong></p>
 <ul>
-<li>simple undo/redo management system</li>
-<li>line based merge / comparer</li>
+<li>Simple undo/redo management system</li>
+<li>Line based merge / comparer</li>
 </ul>
 <p><strong>Widget implementation:</strong></p>
 <ul>
 <li>PyGTK widget to visualise and edit the data</li>
-<li>syntax highlighter</li>
+<li>Syntax highlighter</li>
 </ul>
 <p><strong>Application:</strong></p>
 <ul>
-<li>framework for displaying multiple viewers in tabs and managing all buttons and menus</li>
-<li>integration with popular open source version control systems</li>
-<li>preferences</li>
-<li>command line parsing</li>
-<li>all character encoding and platform specific stuff</li>
+<li>Framework for displaying multiple viewers in tabs and managing all buttons and menus</li>
+<li>Integration with popular open source version control systems</li>
+<li>Preferences</li>
+<li>Command line parsing</li>
+<li>All character encoding and platform specific stuff</li>
 </ul>
 <p>These changes should make it easier for other developers to contribute.</p>
-<h2>Goals For 0.6</h2>
-<ul>
-<li>add the ability to dynamically add and remove comparison panes</li>
-<li>add a details pane to easily inspect most differences in the currently selected line without needing to scroll a viewport</li>
-</ul>
 <h2>Goals For 0.7</h2>
 <ul>
-<li>add an optional explicit merge pane with flagged merge conflict blocks</li>
+<li>Add the ability to dynamically add and remove comparison panes</li>
+<li>Add a details pane to easily inspect most differences in the currently selected line without needing to scroll a viewport</li>
 </ul>
 <h2>Goals For 0.8</h2>
 <ul>
-<li>add the ability to use regular expressions to specify "minor" differences that can be dimmed in the viewer and skipped when navigating between differences</li>
-<li>make separate view and editor options per file type</li>
-<li>improve syntax highlighter so it can identify patterns like nested elements, arbitrary delimiters, and multi-line counted character patterns (eg. Lua style long comments, section headers in reStructured text, search/replace delimiters in Perl)</li>
+<li>Add an optional explicit merge pane with flagged merge conflict blocks</li>
+</ul>
+<h2>Goals For 0.9</h2>
+<ul>
+<li>Add the ability to use regular expressions to specify "minor" differences that can be dimmed in the viewer and skipped when navigating between differences</li>
+<li>Make separate view and editor options per file type</li>
+<li>Improve syntax highlighter so it can identify patterns like nested elements, arbitrary delimiters, and multi-line counted character patterns (eg. Lua style long comments, section headers in reStructured text, search/replace delimiters in Perl)</li>
 </ul>
 <h2>Goals For Later Releases</h2>
 <ul>
-<li>improve the viewer to support word wrap and display differences within a line at word-level granularity</li>
-<li>elevate all resource values to preferences that can be changed with the GUI</li>
-<li>improve Windows shell integration to allow users to open multiple files for mutual comparison</li>
+<li>Improve the viewer to support word wrap and display differences within a line at word-level granularity</li>
+<li>Elevate all resource values to preferences that can be changed with the GUI</li>
+<li>Improve Windows shell integration to allow users to open multiple files for mutual comparison</li>
 </ul></div>
       </div>
       <div style="clear:both;"></div>
