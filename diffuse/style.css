@@ -88,32 +88,40 @@ footer {
   font-size: 0.8em;
 }
 
-.download {
+.download-link {
   margin: 0 0 1em 0;
   padding: 0.5em 1em;
   border: 1px solid #8dad28;
   border-radius: 0.5em;
+  text-decoration: none;
   background-image: linear-gradient(to bottom, #cee07a, #adcd3c);
-  cursor: pointer;
-  display: flex;
+  display: inline-flex;
 }
-.download:hover {
+.download-link:hover {
   background-image: linear-gradient(to bottom, #d7eb79, #b2d634);
+  cursor: pointer;
 }
-.download > img {
-  margin: 10px;
-  align-self: center;
-}
-.download > p {
+.download-link_text {
+  position: relative;
+  display: inline-flex;
+  flex-direction: column;
   margin: 10px;
   text-align: left;
+  color: #333;
+}
+.download-link_text_big, .download-link_text_small {
+  margin-bottom: 0.3em;
+}
+.download-link_text_big {
+  color: #d70;
+  font-size: 1.5em;
+}
+.download-link_text_small {
   font-size: 0.8em;
 }
-.download-link {
-  display: inline-block;
-  margin-bottom: 0.3em;
-  font-size: 1.3em;
-  color: #d70;
+.download-link > img {
+  margin: 10px;
+  align-self: center;
 }
 
 .dlpage table {
