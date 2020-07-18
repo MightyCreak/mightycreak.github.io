@@ -5,7 +5,7 @@
     <title>Diffuse</title>
     <link rel="stylesheet" href="style.css"/>
     <link rel="shortcut icon" href="favicon.ico"/>
-    <link rel="alternate" type="application/rss+xml" title="News" href="rss.xml" />
+    <!--<link rel="alternate" type="application/rss+xml" title="News" href="rss.xml" />-->
   </head>
   <body>
     <div id="page">
@@ -16,14 +16,21 @@
       <div id="main">
         <div id="left">
           <h2>Navigation</h2>
-          <div id="nav"><ul><li><a href="index.html">Home</a></li><li><a href="about.html">About</a></li><li><a href="download.html">Download</a></li><li><a href="screenshots.html">Screenshots</a></li><li><a href="manual.html">Manual</a></li><li><a href="licence.html">Licence</a></li><li><a href="development.html">Development</a></li><li><a href="roadmap.html">Roadmap</a></li></ul></div>
+          <div id="nav">
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about.html">About</a></li>
+              <!--<li><a href="download.html">Download</a></li>-->
+              <li><a href="screenshots.html">Screenshots</a></li>
+              <li><a href="manual.html">Manual</a></li>
+              <li><a href="licence.html">Licence</a></li>
+              <li><a href="development.html">Development</a></li>
+              <li><a href="roadmap.html">Roadmap</a></li>
+            </ul>
+          </div>
         </div>
         <div id="body"><h2>Where We Are Going</h2>
 <p>We want to make Diffuse the best tool for open source developers to resolve merge conflicts and review changes to their code. We are currently focusing on merging and comparing text files. Below are the items we want to accomplish on our way to a "version 1.0.0" release. This roadmap is a work in progress and will evolve as the project moves forward.</p>
-<h2>Goals For 0.5</h2>
-<ul>
-  <li>Migrate from Python 2 to Python 3</li>
-</ul>
 <h2>Goals For 0.6</h2>
 <p>We are partitioning Diffuse's code base into three main sections, each with a well defined public API and simple dependency graph. The contents of these sections will basically be:</p>
 <p><strong>Core data manipulation classes:</strong></p>
