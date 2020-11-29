@@ -1,96 +1,137 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en">
-  <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    <title>Diffuse</title>
-    <link rel="stylesheet" href="style.css"/>
-    <link rel="shortcut icon" href="favicon.ico"/>
-    <!--<link rel="alternate" type="application/rss+xml" title="News" href="rss.xml" />-->
-  </head>
-  <body>
-    <div id="page">
-      <div id="header">
-        <h1>Diffuse</h1>
-        <h2>Graphical tool for merging and comparing text files</h2>
-      </div>
-      <div id="main">
-        <div id="left">
-          <h2>Navigation</h2>
-          <div id="nav">
-            <ul>
-              <li><a href="index.html">Home</a></li>
-              <li><a href="about.html">About</a></li>
-              <!--<li><a href="download.html">Download</a></li>-->
-              <li><a href="screenshots.html">Screenshots</a></li>
-              <li><a href="manual.html">Manual</a></li>
-              <li><a href="licence.html">Licence</a></li>
-              <li><a href="development.html">Development</a></li>
-              <li><a href="roadmap.html">Roadmap</a></li>
-            </ul>
-          </div>
-        </div>
-        <div id="body"><div class="dlpage">
-<h2>Download</h2>
-<table>
-<tr>
-<td class="oslogo" rowspan="2"><img src="images/Linux.png" alt="download" /></td>
-<td style="width: 100%;"><span style="font-size: medium;">GNU/Linux</span><br /><a title="download Diffuse" href="http://sourceforge.net/projects/diffuse/files/diffuse/0.4.8/diffuse_0.4.8-1_all.deb/download">deb</a> <a title="download Diffuse" href="http://sourceforge.net/projects/diffuse/files/diffuse/0.4.8/diffuse-0.4.8-1.noarch.rpm/download">rpm</a></td></tr>
-<tr><td>
-<p>The most recent release of Diffuse is provided as .deb and .rpm packages.  These packages can be installed using the following commands:</p>
-<ul>
-<li>Debian / Ubuntu: <code>dpkg -i diffuse*.deb</code></li>
-<li>Fedora / OpenSUSE: <code>rpm -i diffuse*.rpm</code></li>
-</ul>
-<p>Alternatively, Diffuse can be installed by the package management system of most major Linux distributions using the following commands:</p>
-<ul>
-<li>Arch Linux: <code>pacman -S diffuse</code></li>
-<li>Debian / Ubuntu: <code>apt-get install diffuse</code></li>
-<li>Fedora: <code>yum install diffuse</code></li>
-<li>Gentoo: <code>emerge diffuse</code></li>
-<li>OpenSUSE: <code>zypper install diffuse</code></li>
-</ul>
-</td></tr></table>
-<table>
-<tr>
-<td class="oslogo" rowspan="2"><img src="images/Win32.png" alt="download" /></td>
-<td style="width: 100%;"><span style="font-size: medium;">Microsoft Windows</span><br /><a title="download Diffuse" href="http://sourceforge.net/projects/diffuse/files/diffuse/0.4.8/diffuse-0.4.8-1.win32.exe/download">Win32</a></td></tr>
-<tr><td>
-<p>The Win32 installer for Diffuse contains all dependencies required for use on 32-bit and 64-bit versions of XP / Vista / Windows 7.</p>
-</td></tr></table>
-<table>
-<tr>
-<td class="oslogo" rowspan="2"><img src="images/Apple.png" alt="download" /></td>
-<td style="width: 100%;"><span style="font-size: medium;">Mac OS X</span><br /><a href="http://trac.macports.org/browser/trunk/dports/devel/diffuse/Portfile">MacPorts</a> <a href="http://pdb.finkproject.org/pdb/package.php/diffuse">Fink</a></td></tr>
-<tr><td>
-<p>Packages for Mac OS X are maintained by third parties.  Diffuse can be installed using the following commands:</p>
-<ul>
-<li>MacPorts: <code>port install diffuse</code></li>
-<li>Fink: <code>fink install diffuse</code></li>
-</ul>
-</td></tr></table>
-<table>
-<tr>
-<td class="oslogo" rowspan="2"><img src="images/BSD.png" alt="download" /></td>
-<td style="width: 100%;"><span style="font-size: medium;">BSD</span><br /><a href="http://www.freebsd.org/cgi/cvsweb.cgi/ports/devel/diffuse/">FreeBSD</a> <a href="http://ftp.netbsd.org/pub/NetBSD/packages/pkgsrc/devel/diffuse/README.html">NetBSD</a></td></tr>
-<tr><td>
-<p>Diffuse can be installed by the package management system of several BSD distributions using the following commands:</p>
-<ul>
-<li>FreeBSD: <code>pkg_add -r diffuse</code></li>
-<li>NetBSD: <code>pkg_add diffuse</code></li>
-</ul>
-</td></tr></table>
-<table>
-<tr>
-<td><img src="images/tar.png" alt="download" /></td>
-<td style="width: 100%"><span style="font-size: medium;">Source</span><br /><a title="download Diffuse" href="http://sourceforge.net/projects/diffuse/files/diffuse/0.4.8/diffuse-0.4.8.tar.bz2/download">tar.bz2</a></td></tr>
-</table>
-</div></div>
-      </div>
-      <div style="clear:both;"></div>
-      <footer>
-        Copyright &copy; 2006-2019 Derrick Moser, Henri Menke<br/>
-        Copyright &copy; 2015-2020 Romain "Creak" Failliot<br/>
-      </footer>
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>Diffuse</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="shortcut icon" href="favicon.ico" />
+  <!--<link rel="alternate" type="application/rss+xml" title="News" href="rss.xml" />-->
+</head>
+
+<body>
+  <div id="page">
+    <div id="header">
+      <h1>Diffuse</h1>
+      <h2>Graphical tool for merging and comparing text files</h2>
     </div>
-  </body>
+    <div id="main">
+      <div id="left">
+        <h2>Navigation</h2>
+        <div id="nav">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <!--<li><a href="download.html">Download</a></li>-->
+            <li><a href="screenshots.html">Screenshots</a></li>
+            <li><a href="manual.html">Manual</a></li>
+            <li><a href="licence.html">Licence</a></li>
+            <li><a href="development.html">Development</a></li>
+            <li><a href="roadmap.html">Roadmap</a></li>
+          </ul>
+        </div>
+      </div>
+      <div id="body">
+        <div class="dlpage">
+          <h2>Download</h2>
+          <table>
+            <tr>
+              <td class="oslogo" rowspan="2"><img src="images/Linux.png" alt="download" /></td>
+              <td style="width: 100%;"><span style="font-size: medium;">GNU/Linux</span><br /><a
+                  title="download Diffuse"
+                  href="http://sourceforge.net/projects/diffuse/files/diffuse/0.4.8/diffuse_0.4.8-1_all.deb/download">deb</a>
+                <a title="download Diffuse"
+                  href="http://sourceforge.net/projects/diffuse/files/diffuse/0.4.8/diffuse-0.4.8-1.noarch.rpm/download">rpm</a>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p>The most recent release of Diffuse is provided as .deb and .rpm packages. These packages can be
+                  installed using the following commands:</p>
+                <ul>
+                  <li>Debian / Ubuntu: <code>dpkg -i diffuse*.deb</code></li>
+                  <li>Fedora / OpenSUSE: <code>rpm -i diffuse*.rpm</code></li>
+                </ul>
+                <p>Alternatively, Diffuse can be installed by the package management system of most major Linux
+                  distributions using the following commands:</p>
+                <ul>
+                  <li>Arch Linux: <code>pacman -S diffuse</code></li>
+                  <li>Debian / Ubuntu: <code>apt-get install diffuse</code></li>
+                  <li>Fedora: <code>yum install diffuse</code></li>
+                  <li>Gentoo: <code>emerge diffuse</code></li>
+                  <li>OpenSUSE: <code>zypper install diffuse</code></li>
+                </ul>
+              </td>
+            </tr>
+          </table>
+          <table>
+            <tr>
+              <td class="oslogo" rowspan="2"><img src="images/Win32.png" alt="download" /></td>
+              <td style="width: 100%;"><span style="font-size: medium;">Microsoft Windows</span><br /><a
+                  title="download Diffuse"
+                  href="http://sourceforge.net/projects/diffuse/files/diffuse/0.4.8/diffuse-0.4.8-1.win32.exe/download">Win32</a>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p>The Win32 installer for Diffuse contains all dependencies required for use on 32-bit and 64-bit
+                  versions of XP / Vista / Windows 7.</p>
+              </td>
+            </tr>
+          </table>
+          <table>
+            <tr>
+              <td class="oslogo" rowspan="2"><img src="images/Apple.png" alt="download" /></td>
+              <td style="width: 100%;"><span style="font-size: medium;">Mac OS X</span><br /><a
+                  href="http://trac.macports.org/browser/trunk/dports/devel/diffuse/Portfile">MacPorts</a> <a
+                  href="http://pdb.finkproject.org/pdb/package.php/diffuse">Fink</a></td>
+            </tr>
+            <tr>
+              <td>
+                <p>Packages for Mac OS X are maintained by third parties. Diffuse can be installed using the following
+                  commands:</p>
+                <ul>
+                  <li>MacPorts: <code>port install diffuse</code></li>
+                  <li>Fink: <code>fink install diffuse</code></li>
+                </ul>
+              </td>
+            </tr>
+          </table>
+          <table>
+            <tr>
+              <td class="oslogo" rowspan="2"><img src="images/BSD.png" alt="download" /></td>
+              <td style="width: 100%;"><span style="font-size: medium;">BSD</span><br /><a
+                  href="http://www.freebsd.org/cgi/cvsweb.cgi/ports/devel/diffuse/">FreeBSD</a> <a
+                  href="http://ftp.netbsd.org/pub/NetBSD/packages/pkgsrc/devel/diffuse/README.html">NetBSD</a></td>
+            </tr>
+            <tr>
+              <td>
+                <p>Diffuse can be installed by the package management system of several BSD distributions using the
+                  following commands:</p>
+                <ul>
+                  <li>FreeBSD: <code>pkg_add -r diffuse</code></li>
+                  <li>NetBSD: <code>pkg_add diffuse</code></li>
+                </ul>
+              </td>
+            </tr>
+          </table>
+          <table>
+            <tr>
+              <td><img src="images/tar.png" alt="download" /></td>
+              <td style="width: 100%"><span style="font-size: medium;">Source</span><br /><a title="download Diffuse"
+                  href="http://sourceforge.net/projects/diffuse/files/diffuse/0.4.8/diffuse-0.4.8.tar.bz2/download">tar.bz2</a>
+              </td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </div>
+    <div style="clear:both;"></div>
+    <footer>
+      Copyright &copy; 2006-2019 Derrick Moser, Henri Menke<br />
+      Copyright &copy; 2015-2020 Romain "Creak" Failliot<br />
+    </footer>
+  </div>
+</body>
+
 </html>
